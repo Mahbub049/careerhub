@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "logo":"https://imagizer.imageshack.com/img924/8512/tVCR4q.png",
+        "category_name":"Account & Finance",
+        "availability":"300 Jobs Available"
+
+    },
+    {
+        "id":2,
+        "logo":"https://imagizer.imageshack.com/img923/731/pRH2tJ.png",
+        "category_name":"Creative Design",
+        "availability":"100+ Jobs Available"
+
+    },
+    {
+        "id":3,
+        "logo":"https://imagizer.imageshack.com/img922/1663/tNew3Q.png",
+        "category_name":"Marketing & Sales",
+        "availability":"150 Jobs Available"
+
+    },
+    {
+        "id":4,
+        "logo":"https://imagizer.imageshack.com/img924/596/T0nG61.png",
+        "category_name":"Engineering Job",
+        "availability":"224 Jobs Available"
+
+    }
+
+]
