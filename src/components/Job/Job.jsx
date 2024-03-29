@@ -1,7 +1,8 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { AiOutlineDollarCircle } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 const Job = ({job}) => {
-    const {logo, job_title,company_name, remote_or_onsite, location, job_type, salary} = job;
+    const {id, logo, job_title,company_name, remote_or_onsite, location, job_type, salary} = job;
     return (
         <div className="p-10 rounded-lg">
             <img className="mb-[32px]" src={logo} alt="" />
@@ -21,7 +22,7 @@ const Job = ({job}) => {
                     <p className="text-gray-500">Salary : {salary}</p>
                 </div>
             </div>
-            <a className="btn text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">View Details</a>
+            <NavLink to={`/jobdetails/${id}`}><button className="btn text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">View Details</button></NavLink>
         </div>
     );
 };
